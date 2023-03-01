@@ -1,0 +1,16 @@
+.changephoto{
+    position: relative;
+    display: inline-block;
+}
+
+.changephoto .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+ 
+.changephoto:hover .img-top {
+    display: inline;
+}

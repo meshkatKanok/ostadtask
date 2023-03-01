@@ -1,0 +1,15 @@
+.border-hover:hover{
+border: 2px solid #FFAB00;
+overflow: hidden;
+ 
+}
+.resourceimg{
+    
+    transition: all 1s ease;
+}
+.border-hover:hover .resourceimg{
+    transform: scale(1.1);
+}
+.career :hover{
+    border: 1px solid #FFC000;
+}

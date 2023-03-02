@@ -1,23 +1,24 @@
 import React from 'react';
 import tittleicone from '../asset/guideline.png'
 import img from '../asset/guidelineimg.png'
+import '../Carosel/Carosel.css'
 
 const CarerrGuideline = () => {
     return (
         <div className='lg:block hidden'>
             <div className='w-full h-[665px] bg-[#FFFFFF]'>
                 <div className='flex items-center ml-[160px]'>
-                    <div>
-                        <img className='mt-[88px] ' src={tittleicone} alt="" />
-                    </div>
-                    <span className='text-black font-bold text-[36px] ml-4 mt-[40px] '>ক্যারিয়ার গাইডলাইন নিয়ে আরও জানতে পড়ুন</span>
+                   
+                        <img className='mt-[60px] h-[40px] w-[40px] ' src={tittleicone} alt="" />
+                    
+                    <span className='text-black font-bold text-[36px] ml-4 mt-[60px] '>ক্যারিয়ার গাইডলাইন নিয়ে আরও জানতে পড়ুন</span>
                 </div>
                 <span className='flex justify-start lg:ml-[166px] mt-[19px]  text-xs'>স্কিল ডেভেলপ করুন দেশের সেরা ইন্সট্রাক্টরদের সাথে, ক্লিক করুন নিচের বাটনে।</span>
                 <div >
 
-                    
+
                     <div className='flex ml-[149px] mt-[72px]'>
-                        <div class="w-[343px] h-[282px] bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div class="w-[343px] h-[282px] bg-white border-hover hover:shadow-xl  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img class="rounded-t-lg w-full" src={img} alt="" />
                             </a>
@@ -30,7 +31,7 @@ const CarerrGuideline = () => {
                             </div>
 
                         </div>
-                        <div class="w-[343px] h-[282px] bg-white ml-[56px] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div class="w-[343px] h-[282px] bg-white ml-[56px] border border-hover hover:shadow-xl  border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img class="rounded-t-lg w-full" src={img} alt="" />
                             </a>
@@ -43,7 +44,7 @@ const CarerrGuideline = () => {
                             </div>
 
                         </div>
-                        <div class="w-[343px] h-[282px] bg-white ml-[56px] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div class="w-[343px] h-[282px] bg-white ml-[56px] hover:shadow-xl  border-hover  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="#">
                                 <img class="rounded-t-lg w-full" src={img} alt="" />
                             </a>

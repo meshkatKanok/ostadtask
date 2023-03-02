@@ -9,7 +9,7 @@ import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 const  Companymobile = () => {
     return (
         
-        <div className='lg:hidden block w-full h-[225px] bg-[#101828] mt-4'>
+        <div className='lg:hidden block w-full h-[225px] bg-[#101828]  p-0.5'>
              <span className='text-[20px] flex justify-center  mt-[32px] text-white'>Top companies trust Ostad</span>
              
             <div id="default-carousel" class="relative mt-6" data-carousel="static">
@@ -18,23 +18,23 @@ const  Companymobile = () => {
 
                    <div className='flex'>
                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img className='w-[173] h-[96px]' src={img1} alt="" />
+                   <img className='w-[185px] h-[111px] rounded bg-white ml-11' src={img1} alt="" />
                         {/*  */}
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img className='w-[173] h-[96px]'  src={img2} alt="" />
+                    <img className='w-[185px] h-[111px] rounded  bg-white ml-11'  src={img2} alt="" />
                         {/*  */}
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img className='w-[173] h-[96px]' src={img3} alt="" />
+                    <img className='w-[185px] h-[111px] rounded bg-white ml-11'  src={img2} alt="" />
                         {/*  */}
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img className='w-[173] h-[96px]' src={img4} alt="" />
+                    <img className='w-[185px] h-[111px] rounded bg-white ml-11' src={img3} alt="" />
                         {/*  */}
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img className='w-[173] h-[96px]' src={img1} alt="" />
+                    <img className='w-[185px] h-[111px] rounded bg-white ml-11' src={img3} alt="" />
                         {/*  */}
                     </div>
                    </div>
@@ -49,19 +49,19 @@ const  Companymobile = () => {
 
                 </div>
 
-                <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-[10px] hidden left-[50px]">
+                <div class="absolute z-30  space-x-3 -translate-x-1/2 bottom-[10px] hidden left-[50px]">
                     <button type="button" class="w-3 h-3 rounded-full bg-[#FFAB00] text-[#FFAB00] " aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
                     <button type="button" class="w-3 h-3 rounded-full  " aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
                     <button type="button" class="w-3 h-3 rounded-full  " aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
                 </div>
 
-                <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <button type="button" class="absolute top-[-25px]  left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
                     <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white ">
                         <FaArrowLeft className='text-[#FFAB00]' />
                         <span class="sr-only">Previous</span>
                     </span>
                 </button>
-                <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <button type="button" class="absolute top-[-25px] right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
                     <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white ">
                         <FaArrowRight className='text-[#FFAB00]' />
                         <span class="sr-only">Next</span>

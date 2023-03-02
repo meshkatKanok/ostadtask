@@ -79,16 +79,17 @@ const Career = () => {
             speed={400}
             easing="linear"
           >
+         
             {/* here you can also pass any other element attributes. Also, you can use your custom components as slides */}
             <div   className=''>
                 <div>
                     <div>
 
-                        <div  class="w-[241px] hover:shadow-2xl career hover:border-yellow-400  h-[348px] relative mr-[34px]  bg-white border border-gray-200  ">
+                        <div  class="w-[241px] hover:shadow-2xl career-hover h-[348px] relative mr-[34px]  bg-white   ">
                             <a href="#">
                                 <img class="w-full h-full rounded-lg" src={img1} alt="" />
                             </a>
-                            <div className='w-full h-[127px] bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
+                            <div className='w-full h-[127px]   hover:bg-[#000000] hover:opacity-70 bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
                             </div>
                             <div className='absolute bottom-2 ml-[23px]'>
                             <span className='text-[18px] text-white text-center'>Kazi Ahad Islam (Erfan)</span> <br />
@@ -110,11 +111,11 @@ const Career = () => {
                 <div>
                     <div>
 
-                        <div class="w-[241px] h-[348px]  relative  bg-white border border-gray-200  ">
+                        <div class="w-[241px] h-[348px] career-hover relative  bg-white border border-gray-200  ">
                             <a href="#">
                                 <img class="w-full h-full rounded-lg" src={img1} alt="" />
                             </a>
-                            <div className='w-full h-[127px] bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
+                            <div className='w-full h-[127px] bg-[#000000] hover:bg-[#000000] hover:opacity-70 opacity-40 absolute bottom-0 rounded-lg'>
                             </div>
                             <div className='absolute bottom-2 ml-[23px]'>
                             <span className='text-[18px] text-white text-center'>Kazi Ahad Islam (Erfan)</span> <br />
@@ -138,11 +139,11 @@ const Career = () => {
                 <div>
                     <div>
 
-                        <div class="w-[241px] h-[348px]  relative ml-[34px]  bg-white border border-gray-200  ">
+                        <div class="w-[241px] h-[348px] career-hover relative ml-[34px]  bg-white border border-gray-200  ">
                             <a href="#">
                                 <img class="w-full h-full rounded-lg" src={img1} alt="" />
                             </a>
-                            <div className='w-full h-[127px] bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
+                            <div className='w-full h-[127px] bg-[#000000] hover:bg-[#000000] hover:opacity-70 opacity-40 absolute bottom-0 rounded-lg'>
                             </div>
                             <div className='absolute bottom-2 ml-[23px]'>
                             <span className='text-[18px] text-white text-center'>Kazi Ahad Islam (Erfan)</span> <br />
@@ -164,11 +165,11 @@ const Career = () => {
                 <div>
                     <div>
 
-                        <div class="w-[241px] h-[348px] relative ml-[34px]  bg-white border border-gray-200  ">
+                        <div class="w-[241px] h-[348px] relative ml-[34px] career-hover   bg-white border border-gray-200  ">
                             <a href="#">
                                 <img class="w-full h-full rounded-lg" src={img1} alt="" />
                             </a>
-                            <div className='w-full h-[127px] bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
+                            <div className='w-full h-[127px] bg-[#000000] hover:bg-[#000000] hover:opacity-70 opacity-40 absolute bottom-0 rounded-lg'>
                             </div>
                             <div className='absolute bottom-2 ml-[23px]'>
                             <span className='text-[18px] text-white text-center'>Kazi Ahad Islam (Erfan)</span> <br />
@@ -190,11 +191,11 @@ const Career = () => {
                 <div>
                     <div>
 
-                        <div class="w-[241px] h-[348px] relative ml-[34px] mr-[34px]  bg-white border border-gray-200  ">
+                        <div class="w-[241px] h-[348px] career-hover relative ml-[34px] mr-[34px]  bg-white border border-gray-200  ">
                             <a href="#">
                                 <img class="w-full h-full rounded-lg" src={img1} alt="" />
                             </a>
-                            <div className='w-full h-[127px] bg-[#000000] opacity-40 absolute bottom-0 rounded-lg'>
+                            <div className='w-full h-[127px] bg-[#000000] hover:bg-[#000000] hover:opacity-70 opacity-40 absolute bottom-0 rounded-lg'>
                             </div>
                             <div className='absolute bottom-2 ml-[23px]'>
                             <span className='text-[18px] text-white text-center'>Kazi Ahad Islam (Erfan)</span> <br />

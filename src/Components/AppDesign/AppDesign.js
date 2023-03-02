@@ -31,7 +31,7 @@ const AppDesign = () => {
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] p-1 text-white'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>
@@ -79,7 +79,7 @@ h-[71px] mt-7'>
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px]  p-1 text-white'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>
@@ -128,7 +128,7 @@ h-[71px] mt-7'>
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px]  p-1 text-white'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>
@@ -176,7 +176,7 @@ h-[71px] mt-7'>
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white  p-1'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>
@@ -224,7 +224,7 @@ h-[71px] mt-7'>
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white  p-1'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>
@@ -272,7 +272,7 @@ h-[71px] mt-7'>
                         <div className='w-full h-[40px]  bg-[#1D2939]'>
                             <div className='flex'>
                                 <div className='mt-2'>
-                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white'>ব্যাচ ২৬ </div>
+                                    <div className='w-[53px] h-[24px]   ml-4 bg-[#101828] text-xs rounded-[4px] text-white  p-1'>ব্যাচ ২৬ </div>
                                 </div>
                                 <div className='mt-2'>
                                     <div className='flex w-[115px] justify-center h-[6] ml-2 rounded-[4px] text-white bg-[#475467] items-center p-1'>

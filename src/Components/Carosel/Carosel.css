@@ -13,3 +13,9 @@ overflow: hidden;
 .career :hover{
     border: 1px solid #FFC000;
 }
+.career-hover:hover{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+ 

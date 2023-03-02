@@ -20,6 +20,7 @@ import CompanySupply from '../CopamySupply/CompanySupply';
 import CarerrGuideline from '../CarrerGuideline/CarerrGuideline';
 import Mobile from '../CarrerGuideline/Mobile';
 import Companymobile from '../Companymobile';
+import FooterMobile from '../Fotter/FooterMobile';
 
 const Navbar = () => {
     const [showFlag, setShowflag] = useState(false);
@@ -121,6 +122,7 @@ const Navbar = () => {
             <Companymobile/>
             <CarerrGuideline/>
             <Mobile/>
+            <FooterMobile/>
 
         </div>
     );

@@ -7,21 +7,22 @@ import img4 from '../asset/amrtech.png'
 const CompanySupply = () => {
     return (
         <div className='lg:block hidden'>
-            <div className='w-full h-[255px] bg-[#101828]'>
+            <div className='w-full h-[255px] p-3 bg-[#101828] mt-[120px]'>
                 <div>
-                   <div className='mb-[32px]'>
                    <div className=''>
-                 <span className='text-[20px] flex justify-center  mt-[32px] text-white'>Top companies trust Ostad</span>
+                   <div className=''>
+                 <span className='text-[20px] flex justify-center text-white'>Top companies trust Ostad</span>
                  </div>
                    </div>
-<div className='grid grid-cols-7 mt-6'>
-<img className='w-[173] h-[96px]' src={img1} alt="" />
-<img className='w-[173] h-[96px]'  src={img2} alt="" />
-<img className='w-[173] h-[96px]' src={img3} alt="" />
-<img className='w-[173] h-[96px]' src={img4} alt="" />
-<img className='w-[173] h-[96px]' src={img1} alt="" />
-<img className='w-[173] h-[96px]' src={img2} alt="" />
-<img className='w-[173] h-[96px]' src={img3} alt="" />
+<div className='grid grid-cols-7 mt-6 ml-3'>
+<img className='w-[185px] h-[111px] rounded bg-white' src={img1} alt="" />
+<img className='w-[185px] h-[111px] rounded  bg-white'  src={img2} alt="" />
+<img className='w-[185px] h-[111px] rounded bg-white'  src={img2} alt="" />
+<img className='w-[185px] h-[111px] rounded bg-white' src={img3} alt="" />
+<img className='w-[185px] h-[111px] rounded bg-white' src={img4} alt="" />
+<img className='w-[185px] h-[111px] rounded bg-white' src={img1} alt="" />
+<img className='w-[185px] h-[111px] rounded bg-white' src={img2} alt="" />
+ 
 </div>
                 </div>
             </div>
